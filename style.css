@@ -34,6 +34,9 @@ nav {
 .nav-link.active {
   color: var(--main-color) !important;
 }
+.nav-link {
+  padding: 0 5.6px !important;
+}
 #home {
   margin-top: 150px;
   color: var(--custom-light);
