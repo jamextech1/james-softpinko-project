@@ -1,15 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap");
 :root {
   --main-color: rgb(130, 97, 238);
+  --minor-color: #ff3399;
+  --custom-light: #fff;
+}
+*,
+*::before,
+*::after {
+  font-family: "Raleway", sans-serif;
 }
 header {
   height: 80vh;
-  background: linear-gradient(rgba(130, 97, 238, 0.7), rgba(130, 97, 238, 0.7)),
+  background: linear-gradient(
+      rgba(130, 97, 238, 0.89),
+      rgba(130, 97, 238, 0.89)
+    ),
     url(images/img-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-bottom: 20% !important;
 }
 nav {
-  background: rgb(255, 255, 255) !important;
-  border-radius: 50px;
+  background: var(--custom-light) !important;
+  border-radius: 45px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.199);
+}
+.nav-link:hover,
+.nav-link.active {
+  color: var(--main-color) !important;
+}
+#home {
+  margin-top: 150px;
+  color: var(--custom-light);
+}
+#hero-btn {
+  transition: 0.3s ease-out;
+  background-color: var(--minor-color);
+  border-radius: 100px;
+}
+#hero-btn:hover {
+  box-shadow: 0 0 0 1.5px var(--custom-light);
 }
