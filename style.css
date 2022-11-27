@@ -138,9 +138,9 @@ nav {
   padding: 6px 10px !important;
 }
 #pricing-tables .card {
-  width: 20rem;
+  width: 22.3rem;
   border-radius: 16px;
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
 }
 #pricing-tables .card:hover .prices-box {
   padding: 2px 0 !important;
