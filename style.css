@@ -12,6 +12,7 @@
 body {
   margin-bottom: 20%;
   overflow-x: hidden;
+  background-color: var(--custom-light) !important;
 }
 header {
   height: 80vh;
