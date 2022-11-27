@@ -15,9 +15,7 @@ body {
   background-color: var(--custom-light) !important;
 }
 header {
-  display: grid;
-  row-gap: 4rem;
-  height: 80vh;
+  height: 85vh;
   background: linear-gradient(
       rgba(130, 97, 238, 0.89),
       rgba(130, 97, 238, 0.89)
