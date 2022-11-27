@@ -126,6 +126,7 @@ nav {
 /*  */
 #pricing-tables {
   background: rgba(242, 242, 254, 0.93);
+  padding: 5rem 0;
 }
 #pricing-tables .first-context {
   padding-bottom: 8rem;
@@ -134,16 +135,15 @@ nav {
   background: var(--main-color);
   color: var(--custom-light);
   border-radius: 10px;
-  padding: 6px 0;
-  padding-top: 8px !important;
+  padding: 6px 10px !important;
 }
 #pricing-tables .card {
   width: 20rem;
   border-radius: 16px;
-  padding: 8px 24px;
+  padding: 2rem 4rem;
 }
 #pricing-tables .card:hover .prices-box {
-  padding: 2px 0;
+  padding: 2px 0 !important;
 }
 #pricing-tables .box-second {
   background: var(--minor-color);
