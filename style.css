@@ -108,7 +108,7 @@ nav {
   margin-bottom: 18%;
 }
 #testimonial .card {
-  width: 21rem;
+  width: 24rem;
   border: 0;
   border-radius: 30px;
   padding: 1rem 1.3rem;
@@ -159,8 +159,30 @@ nav {
   border-radius: 100px;
   margin-top: 12px;
 }
+#pricing-tables .btn:hover {
+  background: var(--custom-light);
+  color: var(--main-color);
+  box-shadow: 0 0 0 1.5px var(--main-color);
+}
 .dollar-sign {
   font-size: 44px;
+}
+#counter-js {
+  padding: 10rem 0;
+  margin-top: 15%;
+  background: linear-gradient(
+      rgba(130, 97, 238, 0.89),
+      rgba(130, 97, 238, 0.89)
+    ),
+    url(images/img-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--custom-light);
+}
+#counter-js .row div {
+  width: 15rem;
 }
 
 /* MEDIA QUERIES */
