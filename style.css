@@ -103,7 +103,25 @@ nav {
   width: 11rem;
   border-radius: 30px;
   padding: 0 5px;
+  box-shadow: 8px 8px 0 rgba(255, 255, 255, 0.15) !important;
 }
+#testimonial {
+  margin-top: 10%;
+  margin-bottom: 8px;
+}
+#testimonial .card {
+  width: 21rem;
+  border: 0;
+  border-radius: 30px;
+  padding: 1rem 1.3rem;
+}
+#testimonial .first-paragraph {
+  margin-bottom: 5%;
+}
+.card-text-style {
+  color: var(--minor-color);
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 576px) {
   nav {
