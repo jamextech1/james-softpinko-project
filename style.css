@@ -10,7 +10,6 @@
   font-family: "Raleway", sans-serif;
 }
 body {
-  margin-bottom: 20%;
   overflow-x: hidden;
   background-color: var(--custom-light) !important;
 }
@@ -222,6 +221,21 @@ nav {
 #contact-us input[value="SEND MESSAGE"]:hover {
   transition: 0.2s ease;
   padding: 0.4rem 1rem;
+}
+#last-footer {
+  background: linear-gradient(
+    to right,
+    rgba(164, 89, 210, 0.8),
+    rgba(130, 97, 238, 0.6)
+  );
+  padding: 3rem 0;
+}
+
+#last-footer .row div {
+  width: 60px;
+}
+#last-footer svg {
+  fill: var(--custom-light);
 }
 
 /* MEDIA QUERIES */
