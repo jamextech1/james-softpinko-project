@@ -589,21 +589,49 @@
           </p>
         </div>
         <!-- form row -->
-        <div class="row justify-content-center align-items-center">
+        <div
+          class="row justify-content-center align-items-center gap-4"
+          id="form-row"
+        >
           <!-- form column one -->
-          <div class="text-center text-md-start col-5">
+          <div class="text-center text-md-start col-10 col-md-4">
             <h4>Keep In Touch</h4>
-            <p class="mb-4">
+            <p class="mb-4 text-muted">
               110-220 Quisque diam odio, maximus ac consectetur eu, 10260 auctor
               non lorem
             </p>
-            <p>
+            <p class="text-muted">
               You are NOT allowed to re-distribute Softy Pinko template on any
               template collection websites. Thank you
             </p>
           </div>
           <!-- form column 2 -->
-          <div class="col-6"></div>
+          <div class="col-11 col-md-7">
+            <form class="text-center">
+              <div class="d-block d-md-flex gap-4 mb-4">
+                <input
+                  type="text"
+                  class="form-control border-0 mb-md-0 mb-4 py-3 ps-3 rounded-pill"
+                  placeholder="Full Name"
+                />
+                <input
+                  type="email"
+                  class="form-control border-0 py-3 ps-3 rounded-pill"
+                  placeholder="E-mail Address"
+                />
+              </div>
+              <textarea
+                placeholder="Your Message"
+                class="form-control border-0"
+                style="height: 150px"
+              ></textarea>
+              <input
+                type="submit"
+                class="mt-4 rounded-pill border-0"
+                value="SEND MESSAGE"
+              />
+            </form>
+          </div>
         </div>
       </div>
     </section>

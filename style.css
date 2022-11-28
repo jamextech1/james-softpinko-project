@@ -204,6 +204,25 @@ nav {
   color: var(--custom-light);
   padding: 3px 8px !important;
 }
+#form-row {
+  margin-top: 10rem !important;
+}
+#contact-us {
+  background: rgba(242, 242, 254, 0.93);
+  padding: 6rem 0;
+}
+#contact-us textarea {
+  border-radius: 0.8rem;
+}
+#contact-us input[value="SEND MESSAGE"] {
+  background: var(--main-color);
+  color: var(--custom-light);
+  padding: 0.6rem 1rem;
+}
+#contact-us input[value="SEND MESSAGE"]:hover {
+  transition: 0.2s ease;
+  padding: 0.4rem 1rem;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 576px) {
