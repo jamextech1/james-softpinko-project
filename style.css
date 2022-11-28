@@ -179,6 +179,31 @@ nav {
 #counter-js .row div {
   width: 15rem;
 }
+/* blog section */
+#blog-entries {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+#blog-entries .card {
+  width: 17rem;
+}
+#blog-entries .first-paragraph {
+  margin-bottom: 6rem !important;
+}
+#blog-entries .card .card-img {
+  overflow: hidden;
+  border-radius: 20px;
+}
+#blog-entries .card img:hover {
+  transition: all 0.8s ease;
+  transform: scale(1.15);
+}
+#blog-entries .btn {
+  background: var(--main-color);
+  border-radius: 40px;
+  color: var(--custom-light);
+  padding: 3px 8px !important;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 576px) {
