@@ -688,10 +688,17 @@
         </div>
         <hr style="color: #fff" />
         <p class="mt-4 text-center" style="color: #fff">
-          COPYRIGHT &copy; 2020 SOFTY PINKO COMPANY - DESIGN: JamexTech
+          COPYRIGHT &copy;
+          <script>
+            document.writeln(new Date().getFullYear());
+          </script>
+          SOFTY PINKO COMPANY - DESIGN: JamexTech
         </p>
       </div>
     </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <script src="/js/jquery.js"></script>
     <!-- BOOTSTRAP JS -->
     <script
