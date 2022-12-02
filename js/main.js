@@ -1,3 +1,6 @@
+/*=========*/
+/*AOS CODE*/
+/*=======*/
 AOS.init();
 
 // You can also pass an optional settings object
@@ -23,6 +26,9 @@ AOS.init({
   anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
 });
 
+/*==============*/
+/*TYPED JS CODE*/
+/*============*/
 let typed = new Typed(".typing-effect", {
   strings: ["Brand", "Business", "Start Up"],
   backSpeed: "9",
@@ -30,11 +36,18 @@ let typed = new Typed(".typing-effect", {
   loop: true,
 });
 
+/*=============*/
+/*COUNTER CODE*/
+/*===========*/
 $(".counter").counterUp({
   delay: 2,
-  time: 1500,
+  time: 1000,
 });
 
+
+/*=======================*/
+/*SCROLL TO TOP BTN CODE*/
+/*=====================*/
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
