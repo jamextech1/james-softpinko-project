@@ -256,6 +256,7 @@ nav {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: red; /* Set a background color */
+  color: var(--main-color);
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
