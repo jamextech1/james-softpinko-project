@@ -30,7 +30,7 @@ AOS.init({
 /*TYPED JS CODE*/
 /*============*/
 let typed = new Typed(".typing-effect", {
-  strings: [ '',"Brand", "Business", "Start Up"],
+  strings: ["", "Brand", "Business", "Start Up"],
   backSpeed: "9",
   typeSpeed: "9",
   loop: true,
@@ -43,7 +43,6 @@ $(".counter").counterUp({
   delay: 2,
   time: 1000,
 });
-
 
 /*=======================*/
 /*SCROLL TO TOP BTN CODE*/
